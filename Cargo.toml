@@ -1,0 +1,14 @@
+[package]
+name = "linux_gpu_bios_extractor"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+name = "linux_gpu_bios_extractor"
+path = "src/lib.rs"
+
+[[bin]]
+name = "linux_gpu_bios_extractor_cli"
+path = "src/bin.rs"
+
+[dependencies]
